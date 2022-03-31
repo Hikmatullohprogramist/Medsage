@@ -1,0 +1,79 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Mulish"
+      fonts: 
+        - 
+          asset: "fonts/Mulish-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Mulish-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Mulish-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Mulish-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Poppins"
+      fonts: 
+        - 
+          asset: "fonts/Poppins-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Poppins-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Poppins-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+    - 
+      family: "Open Sans"
+      fonts: 
+        - 
+          asset: "fonts/OpenSans-600.ttf"
+          style: "normal"
+          weight: 600
+  uses-material-design: true
